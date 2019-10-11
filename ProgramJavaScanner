@@ -1,0 +1,17 @@
+
+import java.util.Scanner;
+
+public class JavaScanner{
+    public static void main(String[] args) {
+   
+        Scanner sc = new Scanner (System.in);
+        System.out.println("Berapa HP lawanmu =");
+        int a = sc.nextInt();
+        System.out.println("Berapa Attack Damage mu =");
+        int b = sc.nextInt();
+        
+        System.out.println("sisa HP lawan =" + (a-b));
+        
+        
+}
+}
